@@ -22,7 +22,7 @@ dt = float(0.001)
 #calculation variables
 cx = rx
 dx = l / rx
-a = (2*dt*alpha)/(dx*dx)
+a = (dt*alpha)/(dx*dx)
 xcells = np.array([(2*i+1)*dx/2 for i in range(cx)])
 
 #weights
